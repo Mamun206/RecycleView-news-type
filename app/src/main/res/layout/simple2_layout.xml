@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Second_image1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@drawable/abc"/>
+    <TextView
+        android:id="@+id/Second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Title"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/Second_short"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction to Bangladesh"
+        android:layout_margin="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+    <ImageView
+        android:id="@+id/Second_image2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@drawable/abc"/>
+    <TextView
+        android:id="@+id/Second_long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction to Bangladesh"
+        android:layout_margin="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
